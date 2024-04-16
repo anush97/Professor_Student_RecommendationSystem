@@ -5,13 +5,13 @@ app = Flask(__name__)
 
 # Load recommendations
 def load_recommendations():
-    with open('Recommendation_files/student_recommendations.json', 'r') as file:
+    with open('Final_Recommendation_datafiles/student_recommendations.json', 'r') as file:
         student_recs = json.load(file)
-    with open('Recommendation_files/professor_recommendations.json', 'r') as file:
+    with open('Final_Recommendation_datafiles/professor_recommendations.json', 'r') as file:
         professor_recs = json.load(file)
-    with open('Recommendation_files/professor_to_professor_recommendations.json', 'r') as file:
+    with open('Final_Recommendation_datafiles/professor_to_professor_recommendations.json', 'r') as file:
         prof_to_prof_recs = json.load(file)
-    with open('Recommendation_files/student_to_student_recommendations.json', 'r') as file:
+    with open('Final_Recommendation_datafiles/student_to_student_recommendations.json', 'r') as file:
         student_to_student_recs = json.load(file)
     return student_recs, professor_recs, prof_to_prof_recs, student_to_student_recs
 
