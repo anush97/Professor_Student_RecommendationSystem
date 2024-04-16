@@ -87,7 +87,7 @@ This section explains the methods and libraries used to implement the recommenda
 
 
 ## Sources and Credits
-The development of this project was inspired by a combination of academic literature on recommendation systems, documentation of the various libraries used, and community-driven resources such as Stack Overflow and GitHub repositories.
+The development of this project was inspired by a combination of academic literature on recommendation systems, documentation of the various libraries used, and community-driven resources such as GitHub repositories.
 Some links -
 - https://esource.dbs.ie/server/api/core/bitstreams/ea22d96a-262c-42bf-9bf3-8fbb98e3d36a/content
 - https://aclanthology.org/R19-2009.pdf
