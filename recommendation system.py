@@ -326,7 +326,6 @@ def save_recommendations_to_json(recommendations, filepath):
     # Convert sets to lists (if any) and prepare the dictionary for JSON dumping
     json_ready_recommendations = {}
     for key, value in recommendations.items():
-        # Assuming value is a list of dictionaries, which is JSON serializable
         json_ready_recommendations[key] = value
 
     # Write JSON to a file
