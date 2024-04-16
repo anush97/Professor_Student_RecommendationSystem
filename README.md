@@ -94,5 +94,5 @@ Some links -
 - https://github.com/AmoliR/nlp-for-book-recommendation/tree/76ca80daf9eb733274a3d92887bbfbec7b48704c
 
 ## Contact
-For any further queries or issues related to the recommendation system, you can open an issue on the GitHub repository or contact the maintainers directly.
+For any further queries or issues related to the recommendation system, you can open an issue on the GitHub repository.
 
